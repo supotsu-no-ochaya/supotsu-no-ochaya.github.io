@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+titleTemplate: false
 
 hero:
   name: "Supotsu no Ochaya"
@@ -10,6 +11,10 @@ hero:
     - theme: brand
       text: Getting Started
       link: /getting-started
+  image:
+    src: /logo.svg
+    width: 512
+    height: 512
 
 #features:
 #  - title: Feature A

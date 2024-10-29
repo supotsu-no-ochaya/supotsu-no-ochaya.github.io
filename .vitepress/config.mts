@@ -1,4 +1,6 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import nav from "./nav";
+import sidebar from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,13 +18,8 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Getting Started', link: '/getting-started' }
-    ],
-    sidebar: [
-
-    ],
+    nav: nav,
+    sidebar: sidebar,
     footer: {
       copyright: "Copyright © 2024-present Supotsu no Ochaya",
     },

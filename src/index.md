@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 titleTemplate: false
 
@@ -24,3 +23,15 @@ hero:
 #  - title: Feature C
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+<style>
+:root {
+    --vp-home-hero-name-color: #6196ff;
+    --vp-home-hero-image-background-image: linear-gradient(#6196ff80, #6196ff80);
+    --vp-home-hero-image-filter: blur(100px);
+}
+
+.vp-doc h1 {
+    text-align: center;
+}
+</style>

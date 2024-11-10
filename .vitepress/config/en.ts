@@ -18,7 +18,7 @@ function nav(): DefaultTheme.NavItem[] {
         {
             text: "Repos",
             items: [
-                {text: "Docker images", link: "https://github.com/supotsu-no-ochaya/supotsu-no-ochaya", target: "_blank"},
+                {text: "Docker images", link: "https://github.com/orgs/supotsu-no-ochaya/packages", target: "_blank"},
                 {text: "Backend", link: "https://github.com/supotsu-no-ochaya/backend", target: "_blank"},
                 {text: "Frontend", link: "https://github.com/supotsu-no-ochaya/frontend", target: "_blank"},
                 {text: "Business Intelligence", link: "https://github.com/supotsu-no-ochaya/business-intelligence", target: "_blank"},

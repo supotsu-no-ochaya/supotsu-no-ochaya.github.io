@@ -28,7 +28,7 @@ features:
 ---
 
 <style>
-:root {
+#VPContent.is-home {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 

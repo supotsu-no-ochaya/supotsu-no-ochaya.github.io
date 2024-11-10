@@ -12,6 +12,8 @@ services:
   backend:
     image: ghcr.io/supotsu-no-ochaya/backend
     container_name: backend
+    volumes:
+      - ./data:/data
     restart: on-failure:3
 
   frontend:

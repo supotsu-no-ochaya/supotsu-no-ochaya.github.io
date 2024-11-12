@@ -21,7 +21,7 @@ cd /srv/supotsu-no-ochaya/  # and go into it
 Now you should create the following files with the following content.
 
 ::: code-group
-<<< @/files/docker-compose.yaml {yaml} [docker-compose.yml]
+<<< @/files/docker-compose.yaml {yaml} [docker-compose.yaml]
 <<< @/files/nginx.conf {nginx} [nginx.conf]
 :::
 

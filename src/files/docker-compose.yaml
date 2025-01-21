@@ -3,20 +3,18 @@ name: Supotsu no Ochaya
 services:
   proxy:
     image: nginx:stable-alpine
-    container_name: proxy
-    ports: ["80:80"]
+    ports:
+      - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     restart: on-failure:3
 
   backend:
-    image: ghcr.io/supotsu-no-ochaya/backend
-    container_name: backend
+    image: ghcr.io/supotsu-no-ochaya/supotsu-backend:dev
     volumes:
-      - ./data:/data
+      - ./pb_data:/app/pb_data
     restart: on-failure:3
 
   frontend:
-    image: ghcr.io/supotsu-no-ochaya/frontend
-    container_name: frontend
+    image: ghcr.io/supotsu-no-ochaya/frontend:main
     restart: on-failure:3

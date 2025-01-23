@@ -57,7 +57,7 @@ cd /srv/supotsu-no-ochaya/  # and go into it for later commands
 > When you start this normally you have to fill in all data yourself before seeing results and being able to play around.
 > If you just want to test this software you can run the following command to download some test-data.
 > ```shell
-> curl -Ls https://raw.githubusercontent.com/supotsu-no-ochaya/backend/refs/heads/main/download-testdata.sh | bash -- v2
+> curl -Ls https://raw.githubusercontent.com/supotsu-no-ochaya/backend/refs/heads/main/download-testdata.sh | bash -s v4
 > ```
 
 For the first startup run the following command<sup>[[?]](#commands)</sup>.
